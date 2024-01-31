@@ -25,7 +25,7 @@ const theme = createTheme({
 
 
 export default function BoxTabs({ listaTab, listaConteudoTabPanel }: Props) {
-    const [value, setValue] = useState('1');
+    const [value, setValue] = useState('0');
 
     function handleChange(_event: React.SyntheticEvent, newValue: string) {
         setValue(newValue);
